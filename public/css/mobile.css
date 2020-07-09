@@ -1,0 +1,56 @@
+#main {
+  background-image: url("/image/home-vert-cropped-no-band.jpg");
+}
+
+@media all and (orientation:portrait) {
+  #main {
+    width: 100vw;
+    height: 177vw;
+  }
+}
+
+@media all and (orientation:landscape) {
+  #main {
+    width: 56.25vh;
+    height: 100vh;
+  }
+}
+
+#ioi {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-size: 7.7vh;
+  text-align: center;
+  line-height: 9.7vh;
+}
+
+#about {
+  transform: rotate(-16deg);
+  top: 11%;
+  left: 8%;
+  font-size: 5vh;
+}
+
+#upcoming {
+  transform: rotate(20deg);
+  top: 15%;
+  left: 57%;
+  font-size: 5vh;
+  text-align: center;
+}
+
+#past {
+  transform: rotate(0deg);
+  top: 52%;
+  left: 70%;
+  font-size: 5vh;
+}
+
+#contact {
+  transform: rotate 0;
+  top: 75%;
+  left: 61%;
+  font-size: 5vh;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+@import url('/css/desktop.css')  screen and (min-width: 900px);
+@import url('/css/mobile.css') screen and (max-width: 900px);
+
+@font-face {
+  font-family: CandyColouredClown;
+  src: url("/font/CandyColouredClown.woff");
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  font-family: Helvetica, Arial;
+}
+
+.section-link {
+  text-decoration: none;
+  font-family: CandyColouredClown, Helvetica, Arial;
+}
+
+.homepage-link:hover {
+  text-decoration: none;
+  transform: scaleY(-1) !important;
+  /* rotate(180deg) */
+}
+
+.homepage-link {
+  position: absolute;
+}
+
+#main {
+  /*
+  width: 56.25vh; 
+  height: 100vh;  */
+
+  /* if h < w then 56.25vh else 100vw */
+  /* if h < w then 100vh else 177vw */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+

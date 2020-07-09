@@ -1,0 +1,45 @@
+#main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/image/home-desktop.jpg");
+}
+
+#ioi {
+  top: 23%;
+  left: 3%;
+  font-size: 18vh;
+  text-align: center;
+  line-height: 20vh;
+  position: absolute;
+}
+
+#about {
+  transform: rotate(0deg);
+  top: 87%;
+  left: 80%;
+  font-size: 8vh;
+}
+
+#upcoming {
+  transform: rotate(0deg);
+  top: 11%;
+  right: 4%;
+  font-size: 8vh;
+  text-align: center;
+}
+
+#past {
+  transform: rotate(0deg);
+  top: 51%;
+  left: 76%;
+  font-size: 8vh;
+  line-height: 10vh
+}
+
+#contact {
+  transform: rotate 0;
+  top: 84%;
+  left: 54%;
+  font-size: 8vh;
+  text-align: center;
+}
